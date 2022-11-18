@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  background-color: grey;
+  margin: 0;
+}
+.carousel {
+  background-color: coral;
+  height: 60vh;
+  width: 100%;
+}

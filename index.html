@@ -1,162 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing</title>
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bievenido - Pictocom</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <!-- Navigation-->
+    <nav class="navbar navbar-light navbar-expand-lg bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#!">Pictocom</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Colección</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Mi colección</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Administración</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <div class="text-center text-white">
+              <!-- Page heading-->
+              <h1 class="mb-5">
+                Personaliza tu colección, mejora tu comunicación!
+              </h1>
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <form
+                    class="form-subscribe"
+                    id="contactForm"
+                    data-sb-form-api-token="API_TOKEN"
+                  >
+                    <!-- Email address input-->
+                    <div class="row">
+                      <div class="col-auto">
+                        <button
+                          class="btn btn-warning"
+                          id="submitButton"
+                          type="submit"
+                        >
+                          Entrar
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-auto">
+                  <form
+                    class="form-subscribe"
+                    id="contactForm"
+                    data-sb-form-api-token="API_TOKEN"
+                  >
+                    <!-- Email address input-->
+                    <div class="row">
+                      <div class="col-auto">
+                        <button
+                          class="btn btn-warning"
+                          id="submitButton"
+                          type="submit"
+                        >
+                          Registrarse
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-person-square m-auto text-warning"></i>
+              </div>
+              <h3>Alta resolución</h3>
+              <p class="lead mb-0">Pictogramas claros y de alta calidad.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-volume-up m-auto text-warning"></i>
+              </div>
+              <h3>Audio disponible</h3>
+              <p class="lead mb-0">
+                Reproduce a voz los pictogramas que necesitas.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-star m-auto text-warning"></i>
+              </div>
+              <h3>Guarda tus Favoritos</h3>
+              <p class="lead mb-0">
+                Crea tu propia colección y tenlos disponibles al instante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Image Showcases-->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="background-image: url('/assets/img/27685_500.png')"
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>
+              ¿Qué son los Sistemas Aumentativos y Alternativos de Comunicación
+              (SAAC)?
+            </h2>
+            <p class="lead mb-0">
+              Los Sistemas Aumentativos y Alternativos de Comunicación (SAAC)
+              son formas de expresión diferentes del lenguaje hablado que tienen
+              como objetivo aumentar el nivel de expresión (aumentativo) y/o
+              compensar (alternativo) las dificultades de comunicación que
+              presentan algunas personas en este área.
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 text-white showcase-img"
+            style="background-image: url('/assets/img/5971_500.png')"
+          ></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Productos de apoyo para la comunicación</h2>
+            <p class="lead mb-0">
+              Podemos dividir los productos de apoyo para la comunicación en
+              básicos y tecnológicos. Los tableros de comunicación son productos
+              de apoyo básicos. Los comunicadores electrócnicos disponen de una
+              salida para los mensajes en forma de habla digitalizada
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="background-image: url('/assets/img/15018_500.png')"
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>¿Qué recursos se utilizan?</h2>
+            <p class="lead mb-0">
+              La Comunicación Aumentativa y Alternativa incluye diversos
+              sistemas de símbolos, tanto gráficos (fotografías, dibujos,
+              pictogramas, palabras o letras) como gestuales (mímica, gestos o
+              signos manuales) y, en el caso de los primeros, requiere también
+              el uso de productos de apoyo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#!">Acerca del sitio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+              <li class="list-inline-item">⋅</li>
+              <li class="list-inline-item"><a href="#!">Contacto</a></li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; Pictocom 2022. Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item me-4">
+                <a href="#!"><i class="bi-facebook text-warning fs-3"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+              <li class="list-inline-item me-4">
+                <a href="#!"><i class="bi-twitter text-warning fs-3"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+              <li class="list-inline-item">
+                <a href="#!"><i class="bi-instagram text-warning fs-3"></i></a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://tse4.mm.bing.net/th?id=OIP.4FF9y3Vn4hps0Xbu-BrM6wHaE7&pid=Api&P=0"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/312957056_478563744293061_3505573279866888836_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=wjQqp6LQzS4AX9EdedG&_nc_oc=AQmcXE-wnI_uVdR1pW_YGovILZebYK38j-cueS_KqaGHLkHlLd2wH6VfBA6VQWrjBcg&_nc_ht=scontent-mad1-1.xx&oh=00_AfD9iEsXeVaFfTkTrU22YkpERgh3atagmgFYSfi0_ing6g&oe=637C8718"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.6435-9/122037691_964923374000834_2924858750264973290_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_aid=0&_nc_ohc=CmouDWLqiVYAX8LlmDI&_nc_ht=scontent-mad1-1.xx&oh=00_AfC8VOAvT1DcsDQYMAXxg3eADn5lcve11GDpXnNYryQ2ig&oe=639EDD28"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-
-    <footer class="bg-light text-center">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Form -->
-        <section class="">
-          <form action="">
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center">
-              <!--Grid column-->
-              <div class="col-auto">
-                <p class="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-md-5 col-12">
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input
-                    type="email"
-                    id="form5Example27"
-                    class="form-control"
-                  />
-                  <label class="form-label" for="form5Example27"
-                    >Email address</label
-                  >
-                </div>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-auto">
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary mb-4">
-                  Subscribe
-                </button>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </form>
-        </section>
-        <!-- Section: Form -->
-      </div>
-      <!-- Grid container -->
-
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
     </footer>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
